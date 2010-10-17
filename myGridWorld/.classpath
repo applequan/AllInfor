@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="ant/build/|ant/classes/dproject/part2/|ant/classes/info/gridworld/actor/|ant/classes/info/gridworld/grid/|ant/classes/info/gridworld/gui/|ant/classes/info/gridworld/world/|ant/docs/|ant/docs/dproject/part2/|ant/docs/info/gridworld/actor/|ant/docs/info/gridworld/grid/|ant/docs/info/gridworld/gui/|ant/docs/info/gridworld/world/|ant/docs/resources/|ant/src/dproject/part2/|ant/src/info/gridworld/actor/|ant/src/info/gridworld/grid/|ant/src/info/gridworld/gui/|ant/src/info/gridworld/world/" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
