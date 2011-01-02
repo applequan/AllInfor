@@ -44,3 +44,6 @@
 2010-12-31 09:17:44 Debug: Notice (8): Undefined index: discription in [APP\views\userclasses\display_class_message.ctp, line 28]
 2010-12-31 09:20:31 Debug: Notice (8): Undefined index: discription in [APP\views\userclasses\display_class_message.ctp, line 28]
 2010-12-31 09:24:35 Debug: Notice (8): Undefined index: discription in [APP\views\userclasses\display_class_message.ctp, line 28]
+2011-01-02 05:57:56 Debug: Notice (8): Undefined offset: 0 in [CORE\cake\tests\lib\code_coverage_manager.php, line 294]
+2011-01-02 05:57:56 Debug: Notice (8): Undefined offset: 0 in [CORE\cake\tests\lib\code_coverage_manager.php, line 295]
+2011-01-02 05:57:56 Debug: Notice (8): Undefined offset: 0 in [CORE\cake\tests\lib\code_coverage_manager.php, line 296]

@@ -5,7 +5,7 @@ App::import('Model', 'ClassMessage');
 
 class ClassMessageTestCase extends CakeTestCase {
 	var $ClassMessage = null;
-	var $fixtures = array('app.class_message');
+	var $fixtures = array('app.class_message','app.userclass','app.user','app.userclass','app.userleague','app.league_notice','app.poster');
 
 	function startTest() {
 		$this->ClassMessage =& ClassRegistry::init('ClassMessage');

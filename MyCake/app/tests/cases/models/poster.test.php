@@ -5,7 +5,7 @@ App::import('Model', 'Poster');
 
 class PosterTestCase extends CakeTestCase {
 	var $Poster = null;
-	var $fixtures = array('app.poster');
+	var $fixtures = array('app.poster','app.user','app.userclass','app.class_message','app.userleague','app.league_notice');
 
 	function startTest() {
 		$this->Poster =& ClassRegistry::init('Poster');

@@ -13,7 +13,7 @@ class AdministratorFixture extends CakeTestFixture {
 	);
 	var $records = array(array(
 		'id'  => 1,
-		'aName'  => 'Lorem ipsum dolor ',
+		'aName'  => 'Lorem ipsum dolo ',
 		'password'  => 'Lorem ipsum dolor ',
 		'type'  => 'Lorem ipsum dolor '
 	));

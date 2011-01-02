@@ -22,7 +22,7 @@ class AdministratorTestCase extends CakeTestCase {
 
 		$expected = array('Administrator' => array(
 			'id'  => 1,
-			'aName'  => 'Lorem ipsum dolor ',
+			'aName'  => 'Lorem ipsum dolo ',
 			'password'  => 'Lorem ipsum dolor ',
 			'type'  => 'Lorem ipsum dolor '
 		));

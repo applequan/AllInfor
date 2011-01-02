@@ -5,7 +5,7 @@ App::import('Model', 'Userleague');
 
 class UserleagueTestCase extends CakeTestCase {
 	var $Userleague = null;
-	var $fixtures = array('app.userleague');
+	var $fixtures = array('app.userclass','app.userleague','app.league_notice','app.class_message','app.user','app.poster');
 
 	function startTest() {
 		$this->Userleague =& ClassRegistry::init('Userleague');
