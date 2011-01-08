@@ -1,0 +1,27 @@
+Project 6——Test Practices
+
+测试材料（文档，脚本等）均位于Root/MyCake/~Test_Docs相应文件夹内。
+
+提交的文档包括：
+一.测试修改后的项目程序Root/MyCake
+  项目程序配置说明见内部的readme.khaos文件
+
+二.单元测试Unit Tests
+   在Unit_Test文件夹内，包括
+	1.测试结果---另存为html
+	2.测试文档---UnitTestReport_BaiXunHui_AllInfo_ByKhaos.pdf/docx
+	3.测试脚本---UnitTest&CodeCoverage.php
+	4.用到的测试工具php_xdebug.dll
+	5.测试说明及脚本配置方法见2的.测试文档.内的说明。
+三.系统/集成测试System/Integration Tests
+    共三个，分别是
+	1.安全测试 Security Testing		
+	2.功能/界面测试Functional/UI Testing
+	3.性能测试Performance Testing
+	
+	
+
+
+
+
+   
