@@ -102,6 +102,7 @@ class CodeCoverageManager {
 
 		if (isset($_GET['app'])) {
 			$manager->appTest = true;
+			
 		}
 
 		if (isset($_GET['group'])) {
@@ -608,6 +609,7 @@ class CodeCoverageManager {
 	function __paintHeader($lineCount, $coveredCount, $report) {
 		$manager =& CodeCoverageManager::getInstance();
 		$codeCoverage = $manager->__calcCoverage($lineCount, $coveredCount);
+		
 		return $report = '<h2>Code Coverage: ' . $codeCoverage . '%</h2>
 						<div class="code-coverage-results"><pre>' . $report . '</pre></div>';
 	}

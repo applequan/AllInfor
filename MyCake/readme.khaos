@@ -1,9 +1,13 @@
+Version：1.6
+Author：Khaos，08DM
 配置步骤：
 
-1.注意修改test.php，index.php下的CAKE_CORE_INCLUDE_PATH为自己的路径
+1.注意修改test.php，index.php下的CAKE_CORE_INCLUDE_PATH为自己的相应cake库路径
 2.注意app/config/databse.php下的数据库设置改为自己的数据库配置，
 其中default为实际默认使用数据库  ，
 setest为测试用数据库，
-配置只需要：A.	删除已有的同名数据库，se及setest防止重名覆盖
-再导入附带数据库databsevxx.sql
+配置只需要：A.	删除已有的同名数据库，se及setest以防止重名覆盖
+				再导入附带数据库databsevxx.sql
             B.修改databse.php，主要是host，login，password三项即可
+
+			

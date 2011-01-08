@@ -13,13 +13,23 @@ class PosterFixture extends CakeTestFixture {
 		'userleague_id' => array('type'=>'integer', 'null' => false, 'default' => NULL),
 		'indexes' => array('PRIMARY' => array('column' => 'pNum', 'unique' => 1))
 	);
-	var $records = array(array(
+	var $records = array(
+	array(
 		'theme'  => 'Lorem ipsum dolor sit amet',
 		'pNum'  => 1,
 		'pubDate'  => '2010-12-07',
 		'discription'  => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida,phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam,vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit,feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
-		'imageName'  => 'Lorem ipsum dolor sit amet',
+		'imageName'  => 'Lorem ipsum dolor sit ametliq',
 		'userleague_id'  => 1
-	));
+	),
+	array(
+		'theme'  => 'fys',
+		'pNum'  => 2,
+		'pubDate'  => '2010-12-25',
+		'discription'  => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida,phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam,vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit,feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
+		'imageName'  => 'Lorem ipsum dolor sit ametliq',
+		'userleague_id'  => 2
+	)
+	);
 }
 ?>

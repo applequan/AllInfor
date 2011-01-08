@@ -11,11 +11,24 @@ class AdministratorFixture extends CakeTestFixture {
 		'type' => array('type'=>'string', 'null' => false, 'default' => NULL, 'length' => 20),
 		'indexes' => array('PRIMARY' => array('column' => 'id', 'unique' => 1), 'aName' => array('column' => 'aName', 'unique' => 0))
 	);
-	var $records = array(array(
+	var $records = array(
+	array(
 		'id'  => 1,
-		'aName'  => 'Lorem ipsum dolo ',
-		'password'  => 'Lorem ipsum dolor ',
-		'type'  => 'Lorem ipsum dolor '
+		'aName'  => 'fys ',
+		'password'  => 'fys ',
+		'type'  => 'fys '
+	),
+	array(
+		'id'  => 2,
+		'aName'  => 'quan ',
+		'password'  => 'quan ',
+		'type'  => 'quan '
+	),
+	array(
+		'id'  => 3,
+		'aName'  => 'laitao ',
+		'password'  => 'laitao ',
+		'type'  => 'laitao '
 	));
 }
 ?>

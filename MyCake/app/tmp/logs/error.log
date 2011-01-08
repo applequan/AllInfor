@@ -1,0 +1,7 @@
+2011-01-02 08:37:38 Warning: Warning (2): session_regenerate_id() [<a href='http://php.net/function.session-regenerate-id'>function.session-regenerate-id</a>]: Session object destruction failed in [CORE\cake\libs\session.php, line 600]
+2011-01-02 08:42:40 Error: 4. in view file
+2011-01-02 08:42:40 Error: 1. layout before content
+2011-01-02 08:42:40 Error: 2. in plain element
+2011-01-02 08:42:40 Error: 3. layout after test element but before content
+2011-01-02 08:42:40 Error: 5. layout after content
+2011-01-02 08:42:40 Error: 7. layout after content and after element with no cache tags

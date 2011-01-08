@@ -15,7 +15,23 @@ class PosterTestCase extends CakeTestCase {
 		$this->assertTrue(is_a($this->Poster, 'Poster'));
 	}
 
-	function testPosterFind() {
+	/*function testPosterFind() {
+		$this->Poster->recursive = -1;
+		$results = $this->Poster->find('first'+1);
+		//$results = $this->Administrator->read(null, 2);
+		$this->assertTrue(!empty($results));
+
+		$expected = array('Poster' => array(
+			'theme'  => 'fys',
+		'pNum'  => 2,
+		'pubDate'  => '2010-12-25',
+		'discription'  => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida,phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam,vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit,feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
+		'imageName'  => 'Lorem ipsum dolor sit ametliquet',
+		'userleague_id'  => 2
+		));
+		$this->assertEqual($results, $expected);
+	} */
+	function testPosterNameLength() {
 		$this->Poster->recursive = -1;
 		$results = $this->Poster->find('first');
 		$this->assertTrue(!empty($results));
@@ -25,10 +41,11 @@ class PosterTestCase extends CakeTestCase {
 			'pNum'  => 1,
 			'pubDate'  => '2010-12-07',
 			'discription'  => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida,phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam,vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit,feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
-			'imageName'  => 'Lorem ipsum dolor sit amet',
+			'imageName'  => 'Lorem ipsum dolor sit ametliq',
 			'userleague_id'  => 1
 		));
 		$this->assertEqual($results, $expected);
 	}
+	
 }
 ?>

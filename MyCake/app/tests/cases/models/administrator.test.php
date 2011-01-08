@@ -18,13 +18,58 @@ class AdministratorTestCase extends CakeTestCase {
 	function testAdministratorFind() {
 		$this->Administrator->recursive = -1;
 		$results = $this->Administrator->find('first');
+		//$results = $this->Administrator->read(null, 1);
 		$this->assertTrue(!empty($results));
 
 		$expected = array('Administrator' => array(
 			'id'  => 1,
-			'aName'  => 'Lorem ipsum dolo ',
-			'password'  => 'Lorem ipsum dolor ',
-			'type'  => 'Lorem ipsum dolor '
+			'aName'  => 'fys ',
+			'password'  => 'fys ',
+			'type'  => 'fys '
+		));
+		$this->assertEqual($results, $expected);
+	}
+	
+	function testAdministratorFind2() {
+		$this->Administrator->recursive = -1;
+		$results = $this->Administrator->read(null, 2);
+		$this->assertTrue(!empty($results));
+
+		$expected = array('Administrator' => array(
+			'id'  => 2,
+			'aName'  => 'quan ',
+			'password'  => 'quan ',
+			'type'  => 'quan '
+		));
+		debug($results);
+		$this->assertEqual($results, $expected);
+	}
+	
+	function testAdministratorFind3() {
+		$this->Administrator->recursive = -1;
+		//$results = $this->Administrator->find('first');
+		$results = $this->Administrator->read(null, 3);
+		$this->assertTrue(!empty($results));
+
+		$expected = array('Administrator' => array(
+			'id'  => 3,
+			'aName'  => 'laitao ',
+			'password'  => 'laitao ',
+			'type'  => 'laitao '
+		));
+		$this->assertEqual($results, $expected);
+	}
+	function testAdministratorFind4() {
+		$this->Administrator->recursive = -1;
+		$results = $this->Administrator->find('first');
+		//$results = $this->Administrator->read(null, 1);
+		$this->assertTrue(!empty($results));
+
+		$expected = array('Administrator' => array(
+			'id'  => 3,
+			'aName'  => 'laitao ',
+			'password'  => 'laitao ',
+			'type'  => 'laitao '
 		));
 		$this->assertEqual($results, $expected);
 	}
