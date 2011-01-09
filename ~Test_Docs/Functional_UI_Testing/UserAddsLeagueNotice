@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>UserAddsLeagueNotice</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">UserAddsLeagueNotice</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/MyCake/posters/index</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=login in</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>UserUsername</td>
+	<td>applequan</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>UserPassword</td>
+	<td>qpplequan</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Login']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>UserPassword</td>
+	<td>applequan</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Login']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='content']/div[4]/table/tbody/tr[5]/td[6]/a[1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=New League Notice</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>LeagueNoticeContent</td>
+	<td>测试发布消息</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>LeagueNoticeDiscription</td>
+	<td>测试</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>LeagueNoticeNName</td>
+	<td>测试</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>LeagueNoticeAuth</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Submit']</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
